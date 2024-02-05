@@ -26,7 +26,7 @@ node(){
         echo "Cleaning... Compiling...Testing... Packaging..."
         //sh 'mvn clean package'
         sh "npm install"  
-        sh "npm start"
+        sh "npm run build"
     }
     
     
